@@ -1,0 +1,28 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Environment variables & Secrets (CRITICAL FOR SECURITY)
+.env
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local SQLite database files (Privacy protection)
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# OS & Editor specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.venv/
+.env
+__pycache__/
+*.pyc
